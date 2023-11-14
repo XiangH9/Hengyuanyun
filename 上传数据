@@ -22,6 +22,7 @@ Create folder [oss://datasets/] successfully, request id [0000017E0091FC1D9012CC
 
 #将本地电脑的 "个人数据.zip" 上传至平台个人数据中的 `datasets` 文件夹下
 ~# oss cp 个人数据.zip oss://datasets/
+cp 后面接的是个人数据的路径
 
 #查看我上传的 个人数据.zip
 ~# oss ls -s -d oss://datasets/
